@@ -34,7 +34,7 @@ nav {
 }
 .nav-child a:hover{
     cursor: pointer;
-    background-color: green;
+    background-color: blueviolet;
     color: white;
 }
 
@@ -60,7 +60,8 @@ nav {
     background: blueviolet;
     cursor: pointer;
 }
-.btn-green {
+/* .btn-green {
     background: green;
     color: white;
-}
+} */
+ 
