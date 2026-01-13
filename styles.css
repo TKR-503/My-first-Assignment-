@@ -64,4 +64,50 @@ nav {
     background: green;
     color: white;
 } */
- 
+/* HERO */
+.hero {
+  position: relative;
+  color: white;
+  padding: 120px 0;
+
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.85);
+}
+
+.hero-content {
+  position: relative;
+  align-items: center;
+  max-width: 700px;
+}
+
+.badge {
+  align-items: center;  
+  background: #16a34a;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero p {
+  color: #cbd5f5;
+  margin-bottom: 32px;
+}
+
+.hero-actions a {
+  align-items: center;
+  margin-right: 16px;
+}
