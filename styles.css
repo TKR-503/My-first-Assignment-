@@ -68,7 +68,8 @@ nav {
 .hero {
   position: relative;
   color: white;
-  padding: 120px 0;
+  padding: 70px 120px 134px 120px;
+  align-items: center;
 
 }
 
@@ -85,12 +86,13 @@ nav {
 }
 
 .badge {
-  align-items: center;  
-  background: #16a34a;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
+    justify-content: center;
+     gap: 6;
+    padding: 8px 12px 8px 12px;
+   background: #16a34a;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .hero h1 {
@@ -103,11 +105,39 @@ nav {
 }
 
 .hero p {
+  position: relative;
   color: #cbd5f5;
   margin-bottom: 32px;
 }
 
 .hero-actions a {
+  gap: 16px;
+   text-decoration: none;
   align-items: center;
-  margin-right: 16px;
+ 
+}
+
+.problems {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
