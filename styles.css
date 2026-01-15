@@ -22,7 +22,10 @@
     padding: 16px 120px;        
 }
 
-nav {
+nav { 
+      width: 85%;
+      max-width: 1366px;
+      margin: 0 auto;
        display: flex;
          justify-content:space-between;
 }
@@ -66,25 +69,20 @@ nav {
 } */
 /* HERO */
 .hero {
-  position: relative;
+  width: 85%;
+  max-width: 1366px;
+  margin: 0 auto;
   color: white;
   padding: 70px 120px 134px 120px;
+  text-align: center;
   align-items: center;
-
+  
 }
 
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.85);
-}
-
-.hero-content {
-  position: relative;
-  align-items: center;
-  max-width: 700px;
-}
-
+ .container-hero-content {
+     position: relative;
+  }
+ 
 .badge {
     justify-content: center;
      gap: 6;
@@ -114,7 +112,14 @@ nav {
   gap: 16px;
    text-decoration: none;
   align-items: center;
+  background-position: top center;
  
+}
+.hero-overlay img{
+ background-position: top center;
+ max-width: 1366px;
+ height: 80%
+   
 }
 
 .problems {
