@@ -124,32 +124,38 @@ nav {
   position: absolute;
   width: 100%;
   height: 75%;
-  /* object-fit: cover;     
-  object-position: center right; */
-   
+  
 }
 
-.problems {
-  padding: 80px 20px;
+#problems .problems-heading{
+  height: 152px;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1360px;
+  padding-top: 40px;
   text-align: center;
-}
 
-.subtitle {
+}
+#problems .problems-container {
+ width: 85%;
+ height: 300px;
+ margin: 0 auto;
+ max-width: 1360px;
+}
+.problems-heading h1 {
+  font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+  margin-bottom: 16px;
+}
+.problems-heading p {
+  font-size: 16px;
+font-weight: 400;
+line-height: 20px;
   color: #6b7280;
-  margin-bottom: 8px;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin:0 auto;
-}
-
-.card {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+#problems .problems-container .notes-info {
+  display: flex;
+  gap: 24px;
 }
