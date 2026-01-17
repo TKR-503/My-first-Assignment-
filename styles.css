@@ -167,7 +167,7 @@ margin-bottom: 45px;
   flex-direction: column;
 
 }
-.notes-info .info-card {
+.notes-info .info-card{
    border-radius: 8px;
   box-shadow: 15px 25px 20px 0px rgba(22, 22, 22, 0.06);
  background: rgb(252, 251, 251);
@@ -204,3 +204,30 @@ line-height: 20px;
  text-align: center;
 
  }
+ #solution {  
+  width: 85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 120px;
+    align-items: center;
+    gap: 60;
+  
+ }
+ #solution .knowledge img {
+    width: 500px;
+    height: 600px;
+    padding-top: 120px;
+   margin: 0 auto;
+   
+ }
+.section-label{
+  font-size: 16px;
+  line-height: 20px;
+font-weight: 500;
+color: var(--#30B868, rgba(70, 145, 101, 1));
+margin-top:102px ;
+
+}
+
+
